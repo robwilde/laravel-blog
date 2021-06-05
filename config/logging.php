@@ -35,7 +35,7 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'stack',
-            'channels' => ['single'],
+            'channels' => ['single', 'larabug'],
         ],
 
         'single' => [
@@ -75,6 +75,10 @@ return [
         'errorlog' => [
             'driver' => 'errorlog',
             'level' => 'debug',
+        ],
+
+        'larabug' => [
+            'driver' => 'larabug',
         ],
     ],
 
