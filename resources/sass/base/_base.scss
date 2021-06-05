@@ -12,6 +12,7 @@ body > #app > .container, {
     margin-bottom: 250px;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-family: 'Comic Neue', Roboto, "Segoe UI", cursive;
 }
 
 @include media-breakpoint-down(xs) {
